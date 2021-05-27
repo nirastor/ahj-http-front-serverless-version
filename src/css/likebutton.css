@@ -1,0 +1,132 @@
+.button-like.button-like {
+  background-color: darkred;
+  position: relative;
+  z-index: 1;
+}
+
+.heart {
+  background-image: url("../img/heart.png");
+  animation: fly-3 .5s linear forwards;
+  Width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes fly-0 {
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  25% {
+    transform: translate(-50%, -150%);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -250%);
+    opacity: 1;
+  }
+  75% {
+    transform: translate(-50%, -350%);
+    opacity: .5;
+  }
+  100% {
+    transform: translate(-50%, -450%);
+    opacity: 0;
+  }
+}
+
+@keyframes fly-0 {
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  25% {
+    transform: translate(-150%, -150%);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -250%);
+    opacity: 1;
+  }
+  75% {
+    transform: translate(50%, -350%);
+    opacity: .5;
+  }
+  100% {
+    transform: translate(-50%, -450%);
+    opacity: 0;
+  }
+}
+
+@keyframes fly-1 {
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  25% {
+    transform: translate(-50%, -150%);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(50%, -250%);
+    opacity: 1;
+  }
+  75% {
+    transform: translate(-150%, -350%);
+    opacity: .5;
+  }
+  100% {
+    transform: translate(-50%, -450%);
+    opacity: 0;
+  }
+}
+
+@keyframes fly-2 {
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  25% {
+    transform: translate(-50%, -150%);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-150%, -250%);
+    opacity: 1;
+  }
+  75% {
+    transform: translate(50%, -350%);
+    opacity: .5;
+  }
+  100% {
+    transform: translate(-50%, -450%);
+    opacity: 0;
+  }
+}
+
+@keyframes fly-3 {
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  25% {
+    transform: translate(50%, -150%);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -250%);
+    opacity: 1;
+  }
+  75% {
+    transform: translate(-150%, -350%);
+    opacity: .5;
+  }
+  100% {
+    transform: translate(-50%, -450%);
+    opacity: 0;
+  }
+}
+
